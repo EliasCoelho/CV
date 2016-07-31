@@ -4,7 +4,7 @@ body{
 	background-color: #505050;
 }
 
-h3, h4{
+h1, h2, h3, h4{
 	text-transform: uppercase; 
 }
 
@@ -24,6 +24,7 @@ aside{
 	min-height: 100px;
 	min-width: 100px;
 	float: left;
+	overflow-x: hidden;
 }
 
 ul li{
@@ -47,7 +48,6 @@ ul li{
 }
 
 .membrete{
-	/*background-color: #bd5353;*/
 	background-color: #357542;
 	box-shadow: none;
 }
@@ -56,6 +56,7 @@ ul li{
 	width: 48%;
 	height: auto;
 	display: inline-block;
+	color:#dcb1b1;
 }
 
 .first{
@@ -113,7 +114,26 @@ img.perfil{
 
 aside.middle p{
 	font-size: 11px;
+	
+}
+
+h1{
 	color:#dcb1b1;
+}
+
+aside.middle a{
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	padding: 20px 20px 0px 0px;
+	width: 15%;
+	height: 30px;
+	background-color: #880d47;
+	color: #dcb1b1;
+	text-align: center;
+	font-size: 1em;
+    text-decoration: none;
+    display: inline-block;
 }
 
 h5 img{
